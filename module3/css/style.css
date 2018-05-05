@@ -68,7 +68,9 @@ p {
     width: 100%;
     position: relative;
   }
-
+/* .navbar-nav{
+  text-align: center;
+} */
 .navbar-nav>li:hover{
   background: #e7e7e7;
 }
