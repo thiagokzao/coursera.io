@@ -2,35 +2,114 @@
 <html>
     <head>
         <title>Module 2 exercise </title>
-        <link rel="stylesheet" href="css/style.css">
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="css/bootstrap3.min.css">
     </head>
     <body>
-        <h1>Our Special Menu</h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Food, LLC</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav visible-xs ">
+                  <li class="active"><a href="#broccoli">Broccoli <span class="sr-only">(current)</span></a></li>
+                  <li class="navbar-link"><a href="#eggplant">Eggplant</a></li>
+                  <li><a href="#chickpeas">Chickpeas</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        <h1 class="text-center">Our Special Menu</h1>
         <div id="row">
 
             <div class="col-lg-4 col-md-6">
-                <div class="box">
-                    <section class="rotulo broccoli">Broccoli</section>
-                    <p>Lorem ipsum dolor sit amet, adhuc numquam et sit, nam at ornatus sadipscing. Has liber soluta ad, nam aperiam discere menandri et. Usu adipiscing reprimique an. Cu facete maluisset suscipiantur mei, mel in placerat consetetur.</p>
+                <div class="box broccoli" id="broccoli">
+                    <!-- <section class="rotulo broccoli">Broccoli</section> -->
+                    <h2 class="text-center">Broccoli</h2>
+                    <p>LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                      nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+                      nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
+                      eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                      viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean 
+                      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                      Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed 
+                      ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt 
+                      tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                      tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget 
+                      bibendum sodales, augue velit cursus nunc. Cras dapibus. Vivamus elementum semper nisi.
+                      </p>
+                      <div class="visible-xs">
+                          <a href="#top" class="back-to-top"> Back to top </a>
+                      </div>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6">
-                <div class="box">
-                    <section class="rotulo eggplant">Eggplant</section>
-                    <p>Lorem ipsum dolor sit amet, adhuc numquam et sit, nam at ornatus sadipscing. Has liber soluta ad, nam aperiam discere menandri et. Usu adipiscing reprimique an. Cu facete maluisset suscipiantur mei, mel in placerat consetetur.</p>
+                <div class="box eggplant" id="eggplant">
+                    <!-- <section class="rotulo eggplant">Eggplant</section> -->
+                    <h2 class="text-center">Eggplant</h2>
+                    <p>LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                        nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+                        nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
+                        eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+                        tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                        viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean 
+                        imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed 
+                        ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt 
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget 
+                        bibendum sodales, augue velit cursus nunc. Cras dapibus. Vivamus elementum semper nisi.
+                        </p>
+                        <div class="visible-xs">
+                            <a href="#top" class="back-to-top"> Back to top </a>
+                        </div>
                 </div>
              </div>
-
+             <div class="clearfix visible-xs-block"></div>
              <div class="col-lg-4 col-md-12">
-                <div class="box">
-                    <section class="rotulo chickpeas">Chickpeas</section>
-                    <p>Lorem ipsum dolor sit amet, adhuc numquam et sit, nam at ornatus sadipscing. Has liber soluta ad, nam aperiam discere menandri et. Usu adipiscing reprimique an. Cu facete maluisset suscipiantur mei, mel in placerat consetetur.</p>
+                <div class="box chickpeas" id="chickpeas">
+                    <!-- <section class="rotulo chickpeas">Chickpeas</section> -->
+                    <h2 class="text-center">Chickpeas</h2>
+                    <p>LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                        nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+                        nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis
+                        eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend 
+                        tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                        viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean 
+                        imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed 
+                        ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt 
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget 
+                        bibendum sodales, augue velit cursus nunc. Cras dapibus. Vivamus elementum semper nisi.
+                        </p>
+                    <div class="visible-xs">
+                        <a href="#top" class="back-to-top"> Back to top </a>
+                      </div>
                 </div>
              </div>
-
         </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
