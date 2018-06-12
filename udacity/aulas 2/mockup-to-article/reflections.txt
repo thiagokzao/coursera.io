@@ -1,0 +1,19 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  
+  * What new skills have you learned?
+  I learned how to use sup and strike
+  
+  * What has been easy?
+  I think it was easy. 
+  
+  * What has been difficult?
+  It was not difficult, but I have to check the mockup carefully to realize there were some details such as applying sup and strike. 
+  
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+  I was unsure about using <strong> insted of <b> as well as <em> and <i> and I checked the MDN to make sure I was using the right tag.
+
+  =D
+
+---
+
+Your response goes here!
